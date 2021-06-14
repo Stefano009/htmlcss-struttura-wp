@@ -1,0 +1,28 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+/* common  */
+.sidebar {
+
+}
+
+.content {
+
+}
+
+.sidebar,
+.content {
+
+}
+
+/* /common */
+
+/* header */
+
+header{
+    height: 100px;
+    background-color: fuchsia;
+}
