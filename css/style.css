@@ -5,6 +5,11 @@
 }
 
 /* common  */
+.topbar{
+    width: 100%;
+    
+}
+
 aside  {
     width: calc((100%/5) - 20px);
 
@@ -14,11 +19,11 @@ aside  {
     width: calc((100%/5)*3 - 20px);
 
 }
-
+.topbar ,
 aside ,
 .content {
     float: left;
-    background-color: cadetblue;
+    background-color: lightblue;
     margin: 10px 10px;
     padding: 10px;
 
@@ -32,10 +37,15 @@ body {
 
 /* box */
 
-header,
-footer {
+header {
     height: 100px;
     background-color: fuchsia;
+    margin: 15px auto;
+}
+
+footer{
+    height: 50px;
+    background-color: purple;
     margin: 15px auto;
 }
 
