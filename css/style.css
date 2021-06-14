@@ -5,24 +5,54 @@
 }
 
 /* common  */
-.sidebar {
+aside  {
+    width: calc((100%/5) - 20px);
 
 }
 
 .content {
+    width: calc((100%/5)*3 - 20px);
 
 }
 
-.sidebar,
+aside ,
 .content {
+    float: left;
+    background-color: cadetblue;
+    margin: 10px 10px;
+    padding: 10px;
 
+}
+
+body {
+    width: 80%;
 }
 
 /* /common */
 
-/* header */
+/* box */
 
-header{
+header,
+footer {
     height: 100px;
     background-color: fuchsia;
+    margin: 15px auto;
+}
+
+.box{
+    height: 400px;
+    background-color: goldenrod;
+    margin-bottom: 15px ;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: blue;
+}
+ 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
 }
