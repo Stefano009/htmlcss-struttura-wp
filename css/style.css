@@ -6,17 +6,20 @@
 
 /* common  */
 .topbar{
-    width: 100%;
-    
+    width: calc(100% - 20px);
+
 }
 
 aside  {
-    width: calc((100%/5) - 20px);
+    width: calc(100%/5);
+    margin-top: 10px;
 
 }
 
 .content {
     width: calc((100%/5)*3 - 20px);
+    margin: 10px;
+    
 
 }
 .topbar ,
@@ -24,7 +27,6 @@ aside ,
 .content {
     float: left;
     background-color: lightblue;
-    margin: 10px 10px;
     padding: 10px;
 
 }
